@@ -1,0 +1,136 @@
+:imagesdir: /images
+
+== Image documentation
+Images taken from the system.
+
+=== Images taken on the 6th May 2021
+image::2021-05-06_AquaponicsSetup-01.jpg[title = Rack structure and Aquaponics setup]
+image::2021-05-06_Pot02-01.jpg[title = Rack structure and Aquaponics setup]
+image::2021-05-06_WaterCirculation-01.jpg[title = Filtered water leaving growbeds over bell syphon]
+image::2021-05-06_WaterCirculation-02.jpg[title = Wastewater pumped up from Fishtank]
+image::2021-05-06_WaterCirculation-03.jpg[title = Filtered water leaves growbeds periodically via bell-syphon]
+image::2021-05-06_ControllBoard.jpg[title = 5V controlled 230V circuit. Controller RaspberryPi.]
+image::2021-05-06_LedDisplay.jpg[title = Display for local communication.]
+image::2021-05-06_ControlledSockets.jpg[title = Switched 230V sockets]
+image::2021-05-06_ProtectiveRelay.jpg[title = Protective relay and fuse for 230V circuit]
+
+=== Images taken on the 18th May 2021
+image::2021-05-18_WaterQuality-01.jpg[]
+image::2021-05-18_WaterQuality-02.jpg[]
+image::2021-05-18_WaterQuality-03.jpg[]
+
+=== Images taken on the 30th May 2021
+image::2021-05-30_WaterQuality-01.jpg[]
+image::2021-05-30_WaterQuality-02.jpg[]
+
+=== Images taken on the 6th June 2021
+image::2021-06-05_System-01.jpg[]
+image::2021-06-05_Pot-0101.jpg[]
+image::2021-06-05_Pot-0102.jpg[]
+image::2021-06-05_Pot-02.jpg[]
+
+=== Images taken on the 9th June 2021
+image::2021-06-09_Pot-01.jpg[]
+image::2021-06-09_Pot-02.jpg[]
+
+=== Images taken on the 12th June 2021
+image::2021-06-12_System-01.jpg[]
+image::2021-06-12_Pot-01.jpg[]
+image::2021-06-12_Pot-02.jpg[]
+
+=== Images taken on the 19th June 2021
+image::2021-06-19_System-01.jpg[]
+image::2021-06-19_Pot-0201.jpg[]
+image::2021-06-19_Pot-0202.jpg[]
+
+=== Images taken on the 20th June 2021
+image::images/2021-06-20_System-01.jpg[]
+//image::images/2021-06-20_Pot-02.jpg[]
+
+=== Images taken on the 28th June 2021
+image::2021-06-28_System-01.jpg[]
+//image::images/2021-06-28_Pot-02.jpg[]
+
+=== Images taken on the 1st July 2021
+image::2021-07-01_System-01.jpg[]
+
+=== Images taken on the 24th July 2021
+image::2021-07-24_System-01.jpg[]
+image::2021-07-24_Waterpump230V.jpg[]
+
+=== Images taken on the 1st August 2021
+image::2021-08-01_System-01.jpg[]
+image::2021-08-01_System-02.jpg[]
+image::2021-08-01_Waterpump230V-installed.jpg[]
+
+=== Images taken on the 6th August 2021
+image::2021-08-06_Yield-Cucumber-0101.jpg[title = ]
+
+=== Images taken on the 22nd August 2021
+image::2021-08-22_System.jpg[]
+
+=== Images taken on the 23rd August 2021
+image::2021-08-23_Yield-Cherrytomato-0101.jpg[title = couple of mini tomatoes]
+image::2021-08-23_Yield-Cherrytomato-0201.jpg[title = another handful of mini tomatoes]
+
+=== Images taken on the 24th August 2021
+image::2021-08-24_Yield-Tomato-01.jpg[title = tomatoe pushed against wooden rack while growing]
+
+=== Images taken on the 26th August 2021
+image::2021-08-26_Yield-Moretomato-0101.jpg[title = tomatoes, upper left one pushed by rack while growing]
+image::2021-08-26_Yield-Tomato-0201.jpg[title = three pieces. Black spot due to physical impact during growth]
+
+=== Images taken on the 30th August 2021
+// image::images/2021-08-30_Yield-Cucumber-0101.jpg[]
+image::2021-08-30_Yield-Cucumber-0102.jpg[title = Well developed cucumber]
+image::2021-08-30_Yield-Tomato-0101.jpg[title = Tomatoe yield, one accidentally picked]
+image::2021-08-30_Salad-0101.jpg[title = Dish of salad made from yiels. Onion added]
+image::2021-08-30_Salad-0103.jpg[]
+
+=== Images taken on the 3rd September 2021
+image::2021-09-03_Yield-combined-0101.jpg[title = Oversized cucumber (still tasty) with tomatoes]
+//image::images/2021-09-03_Yield-combined-0102.jpg[]
+image::2021-09-03_Worm-01.jpg[title = Worm invading surface area near vine]
+
+=== Images taken on the 8th September 2021
+image::2021-09-08_Yield-Cucumber_0103.jpg[title = timely harvested cucumber]
+
+=== Images taken on the 10th September 2021
+image::2021-09-10_Yield-Cherrytomato_0101.jpg[title = handful of cherry tomatoes]
+
+=== Images taken on the 13th September 2021
+image::2021-09-13_Processed-Cucumber_0101.jpg[title=...]
+
+=== Images taken on the 17th September 2021
+image::2021-09-17_Yield-Cucumber_0101.jpg[title = Cucmber]
+
+=== Images taken on the 23rd September 2021
+image::2021-09-23_Yield-Tomatoe_0102.jpg[title = Cherry tomatoes]
+image::2021-09-23_Yield-Tomatoe_0104.jpg[title = Tomatoes]
+image::2021-09-23_Yield-Cucumber_0103.jpg[title = Cucmber]
+
+=== Images taken on the 25th September 2021
+image::2021-09-25_Yield-accident_0102.jpg[title = some tomatoes fell from the balkony...]
+
+=== Images taken on the 26th September 2021
+image::2021-09-26_Yield-Cherrytomatoe_0102.jpg[title = plate full of cherry tomatoes]
+
+=== Images taken on the 29th September 2021
+image::2021-09-29_Yield-Cucumber_0101.jpg[title = surprise yield found in pot 2]
+image::2021-09-29_Yield-Tomatoe_0101.jpg[title = larger tomatoes]
+image::2021-09-29_X-Tomatoe_0101.jpg[title = half cut tomatoe damaged at vine]
+
+=== Images taken on the 01st October 2021
+image::2021-10-01_Yield-Tomatoe_0101.jpg[title = tomatoes]
+image::2021-10-01_Yield-Tomatoe_0201.jpg[title = tomatoes]
+image::2021-10-01_X-Tomatoe_0101.jpg[title = X]
+
+=== Images taken on the 21st October 2021
+image::2021-10-21_Yield-Tomatoe_0101.jpg[title = Tomatoes]
+image::2021-10-21_Yield-Tomatoe_0201.jpg[title = Larger tomatoes    ]
+
+=== Images taken on the 27th October 2021
+image::2021-10-27_Yield-Tomatoe_0101.jpg[title = Tomatoes]
+
+=== Images taken on the 29th October 2021
+image::2021-10-29_Yield-Tomatoe_0101.jpg[title = last yield in the season...]

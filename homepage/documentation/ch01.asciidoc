@@ -1,0 +1,159 @@
+== Setup and Operation protocol
+kkk
+
+[]
+|===
+|2021.04.06-we      |ca. 80l preboiled water added to the system.
+|2021.04.08-fr      |constant oxigen flow added, using a 230V AC device. Device itself is mounted on rack. Hose was
+                    attached a metal weight to as to avoid surfacing of air-outlet.
+|2021.04.09-sa      |Two pots were set up in growbed fashion.
+
+                    * Pot gross Volume ~50l
+                    * Different net Volumes, based on use:
+                    ** Pot 1.: suited for plants with longer roots. Net Volume ~ 45l.
+                    Layers from top to bottom:
+                    *** xcm gravel
+                    *** 5cm pebbles
+                    *** 1 layer geotextile filtering
+                    *** 1cm perforated OSB panel
+                    *** 2cm airgap - to be filled with water
+                    ** Pot 2.: ideal for most vegetables or fruits whoes roots do not reach deep. Net Volume ~ 30l.
+                    layers from top to bottom:
+                    *** xcm gravel
+                    *** 5cm pebbles
+                    *** 1 layer geotextile filtering
+                    *** 1cm perforated OSB panel
+                    *** 2cm airgap - to be filled with water
+|2021.04.11.-mo     |constructing rack system
+|2021.04.13-we      |Finished basic rack setup, water circulation started.
+|2021.04.14-th      |fishtank mounted over wheeled OSB board.
+|2021.04.16-fr      |Pot 1.: Seeds of 4 different plants planted. (photo showing layout saved)
+
+                    - Cucumber: Rajnai furtos
+                    - Cucumber: Joker F1
+                    - Carrot: Amsterdami
+                    - Carrot: Karotella
+
+|2021.04.17-sa      |Rack system finished:
+
+                    * Rack is an IKEA made HEJNE type shelf (sizes from Germany)
+                    * With a possible 100kg load on the lower shelf reinforsements were necessary. The 5 shelf-boards
+                      were stiffly connected to enable better load distribution.
+                    * in addition to the metal bracing shipping with the product a shorter-dimension aligned
+                      bracing-board was also installed.
+                    * metal bracing-bars were realligned to ensure vertical leg-position
+                    * sloping balkony slab was compensated for with additional leg length
+                    * wooden surfaces were treated with wood-oil
+
+|2021.04.18-su     |Pot 2.: Seeds of 4 different plants planted:  (photo showing layout saved)
+
+                    - Tomato: Uno
+                    - Tomato: Bajaja
+                    - Pepper: Magrovet
+                    - Pepper: Feherozon
+
+|2021.04.19-mo      |System is online. Constant and regular water circulation is controlled by a time-switch socket.
+                     Each watering sequence lasts 4 minutes.
+
+                    * Timing set as follows:
+                    ** 01:01 - 01:05
+                    ** 04:01 - 04:05
+                    ** 08:01 - 08:05
+                    ** 10:01 - 10:05
+                    ** 12:01 - 12:05
+                    ** 14:01 - 14:05
+                    ** 19:01 - 19:05
+                    ** 20:01 - 20:05
+                    ** 21:01 - 21:05
+                    ** 22:01 - 22:05
+                    * System buildup. There are 2 pots of appr. 50l maximum capacity. Both have a bell-siphon to
+                      control and to stop overflow also to quickly release excess water at the end of a watering run,
+                      to lower water level to minimum. (in order to keep roots from roting)
+                      Speed of waterflow is kept high to grant quick syphon start and not to allow spontanious halting
+                      of suckage once water level drops to minimum.
+                      Bell-syphon suckage only stops, when the SPEED of waterflow falls below a certain level - when
+                      pump stops. This means, that different sized pots can be operated using the same pump, without
+                      additional flowcontroll: smaller pots do not overfill, once water level drops to minimum.
+                      Timing of pump shotdown can therefor be adjusted to serve the bigest pot. This means the
+                      necessary volume of water to be pumbed any given loop is equal the max pot Volume times
+                      the number of pots:
+                      `Vloop = Vmax x n`
+                    * Behaviour on error:
+                    ** Error: *pumping does not stop*
+                    *** Regardnig long time plant health this is `not failsafe`
+                    *** Regarding structural integrity and short time plant health this is `failsafe`
+                    ** Error: *pump stops at wrong times*
+                    *** Regardnig long time plant health this is `irrelevant`
+                    *** Regarding structural integrity and short time plant health this is `failsafe`
+
+|2021.04.21-tu      |Watering seems not to work properly. After scheduled circulation run, water remained in Pot 1.
+|2021.04.22-we      |Problem persists.
+|2021.04.23-th      |Problem analyzed: Contrary to how waterflows are set, flowvolume is not enough to keep suckage
+                    running indefinately. As suckage stops midstream remaining water volume starts refilling pots.
+                    Also problematic, timer can only be set in 1 minute increments.
+
+                    * Possible solutions:
+                    ** 1. finetuning of different water streams is necessary. If a smaller volume / time is enough to
+                       trigger suckage, Pot 2. might be filled using less stream-speed.
+                    ** 2. placing hose outlet to minimal waterlevel in order to suck access water level when pumping
+                       finishes
+                    ** 3. controll computer can be added to enable granular time increments
+                    ** 4. when using controll computer, water level monitoring should read the beginning of the
+                       suckage phase
+                    * Solution as of now: manual supervision.
+                    * Planed solution: Nr.2.
+
+|2021.04.27-tu      |Raspberry resurrected. Important steps:
+
+                    * 'aquaponics' folder on windows shared and mounted onto `RaspberryPi-1 Aquaponics` into folder
+                      `mnt/aquaponics`
+
+|2021.04.28-we      |New relay range tested, seems to be working just fine.
+                    Electric setup under construction.
+|2021.04.29-th      |Rack further reinforced - bracing added at 2 additional places.
+                    Protective relay and circuit electric hub mounted. Relay range mounted, Raspberry mounted,
+                    connected to relays. 4 pieces of 230V external sockets mounted and connected to relays.
+                    Relay range connected to 230V protected electric hub.
+                    Raspberry controling tested: passed.
+|2021.04.30-fr      |3 plant sorts reseeded as affraid of original ones might have expired. Tomato, Pepper, Cucumber
+|2021.05.01-sa      |First shoots of tomato can ben seen all over Pot 2.
+|2021.05.03-mo      |3-4 shoots of carrot visible. Pot 1.'s gravel moves substantially when flooded making it
+                    harder for plants to root. Couple of heavyer stones needed to push against swimming.
+|2021.05.04-tu      |Entire hardwer installed and tested. Recent steps taken:
+
+                    * Relay bar tested, mounted into final position.
+                    * Jumper cable bundle used for reinfored contact.
+                    * additional 3 Relays mounted on opposite side of RaspberryPI
+                    * added one-finger fastening for PI
+                    * 4 switched sockets tested
+                    * inductive switching of relays does not seem to cause current peaks.
+                    (entire circuit is capped at 10A) as this is the max current relays can take according to manual.
+
+|2021.05.05-we      |Basic webserver installed onto RaspberryPi. Also double port forwarding enabled. System now
+                    accessible over port 8042 using OP codes:
+
+                    * DO    -   sends basic commands
+                    * DOC   -   displays documents stored on the server
+                    * REN   -   uses a testmodule to render pixelated text messages
+
+|2021.05.06-th      |Software updated to controll 4 sockets online as of now.
+                    WARNING: Air circulation has not been online for 3 days now. Is being restarted today.
+|2021.05.13-th      |Maintenance, upgrade of the system and status:
+
+                    * Fish were added to the fishtank. Approx. 10 animals in seamingly good shape (sorted) and vivid
+                    condition were put into the water after ~ an hour of tight transportation. One in the water, fish
+                    were fed with special granulate fit for the species.
+                    * Entire software was rewritten to be cleaner, more resilient to restart, more consequent tracking
+                    of GPIO states.
+                    * 7 pots of boiled water was added to fishtank. It has now a net volume of approx: 160l
+                    * some tomatoe shoots were whashed out of the growbed. Replantin these did not work: all dead.
+
+|2021.05.15-sa      |Software update and status check:
+
+                    * Software updated: a new LED clock version was developed in order to display minutes using digits,
+                    rather than hours as used in the _roommanager_ software. LedClock class now has a `clock_style`
+                    argument: 1 - represents the new version.
+                    * Status report: after 48 hours fish seem to be ok. Tomatoes grow as expected, New cucumber shoot
+                    can be seen. Carrots couldn handle being moved hour after hour with the gravel. Shoots were turned
+                    out and lifted from medium. You don't want to be a carrot in our system...
+|===

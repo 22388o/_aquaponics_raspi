@@ -1,0 +1,47 @@
+ body {
+  background-color: #101015;
+}
+
+h1 {
+  color: #ee8000;
+  text-align: left;
+}
+
+p2 {
+  color: #ee8000;
+  text-align: left;
+}
+
+p1 {
+  color: #ee8000;
+  font-family: trebuchet;
+  font-size: 20px;
+}
+
+.jensen{
+  background-color: #ee8000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  /*cursor: pointer;*/
+}
+
+.jensen:hover {
+  background: #2079b0;
+  background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+  background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+  text-decoration: none;
+}
+
+.jensen:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
