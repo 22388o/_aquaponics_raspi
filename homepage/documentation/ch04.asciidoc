@@ -1,0 +1,19 @@
+[[shell:scripts]]
+== Shell scripts
+There is a huge connection of shell scrpits I created which are responsible for many diverse task, such us:
+
+- setup and install of often used programs. (e.g. xrdp, samba, cifs, etc.)
+- modules guiding you through longer install-processes. (e.g. basic RasPi install, Aquaponics, LndNode, etc.)
+- prerequisites for Python installs of each cutstom made computers. (e.g. RoomManager, SecureBTC, etc.)
+
+To set up your Aquaponic System you first need to go through the manual steps, then run
+the following Shell scripts using bash. Before running the scriptscheck if hard-coded
+variables match your installation. First and foremost check:
+
+- username
+- install directories
+- remote paths
+
+=== Automated install-scripts:
+* `mngr_` [[shell:xrdp]]
+* `mngr_` [[shell:samba]]
