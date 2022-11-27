@@ -1,0 +1,3 @@
+== Test
+we are testing if a file created in GitHub can be pulled using SSH and Pycharm software.
+_GoodLuck_
