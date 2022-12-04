@@ -4,24 +4,19 @@ def email_send(to: str, path: str, filename: str):
     with open(path + filename) as fp:
         msg = MIMEText(fp.read())
 
-	date = "-ma-nemreg"
+    date = "-ma-nemreg"
     # me == the sender's email address
     # you == the recipient's email address
     msg['Subject'] = "StatusReport" + date
-    #msg['From'] = 'sziller.aquaponia@gmail.com'
-    #msg['From'] = 'mepl@aukett-heese.de'
     msg['From'] = 'szillerke@gmail.com'
     msg['To'] = to
 
     # Send the message via our own SMTP server.
     s = smtplib.SMTP("smtp.gmail.com", 587)
-    #s = smtplib.SMTP("remote.aukett-heese.de", 443)
     s.ehlo ()
     s.starttls()
-    s.login('sziller.aquaponia@gmail.com', 'H4lastavacska')
-    #s.login('mepl', '13*AH#mepl')
+    s.login('', '')  # add sourec email address and it's password here
     s.sendmail(msg['From'], to, msg.as_string())
-    # s.sendmail('mepl@aukett-heese.de', to, msg.as_string())
     s.quit()
 
 

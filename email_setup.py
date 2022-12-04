@@ -5,7 +5,7 @@ def email_send_aquaponia(To: str,
                          message_subject:str='subject'):
     import smtplib
     from email.mime.text import MIMEText
-    if path == None:
+    if path is None:
         msg = MIMEText(message_body)
     else:
         with open(path + filename) as fp:
@@ -13,27 +13,21 @@ def email_send_aquaponia(To: str,
     # me == the sender's email address
     # you == the recipient's email address
     msg['Subject'] = message_subject
-    msg['From'] = 'sziller.aquaponia@gmail.com'
-    #msg['From'] = 'mepl@aukett-heese.de'
-    #msg['From'] = 'szillerke@gmail.com'
+    msg['From'] = ''  # add emailaddress here!
     msg['To'] = To
 
     # Send the message via our own SMTP server.
     s = smtplib.SMTP("smtp.gmail.com", 587)
     s.ehlo ()
     s.starttls()
-    s.login('sziller.aquaponia@gmail.com', 'H4lastavacska')
+    s.login('', '')  # add email and password to line - use offline config-file
     s.sendmail(msg['From'], To, msg.as_string())
     s.quit()
-
-
 
     #s.send_message(msg)
     #s.quit()
 
     # Send the message via local SMTP server.
-
-
 
     # sendmail function takes 3 arguments: sender's address, recipient's address
     # and message to send - here it is sent as one string.
